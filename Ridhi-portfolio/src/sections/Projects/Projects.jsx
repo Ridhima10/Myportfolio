@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import upasthiti from '../../assets/upasthiti.png';
 import pull from '../../assets/thepull.png'
-import technoWeb from '../../assets/technoWeb.png';
+import Jeevan from '../../assets/jeevan.png';
 import portfolio from '../../assets/portfolio.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -12,28 +12,28 @@ function Projects() {
       <div className={styles.projectsContainer}>
       <ProjectCard
           src={portfolio}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Ridhima Jain"
-          p="Portfolio"
+          link="https://github.com/Ridhima10/Myportfolio"
+          h3="Portfolio"
+          p="Major project"
         />
       <ProjectCard
           src={upasthiti}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/wrench1815/upasthiti"
           h3="UPASTHITI"
-          p="Online attendance website"
+          p="College Project"
         />
         <ProjectCard
           src={pull}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/Ridhima10/The_Pull"
           h3="THE PULL"
-          p="Ecommerce website"
+          p="Freelancing"
           className={styles.pull}
         />
         <ProjectCard
-          src={technoWeb}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="TECHNO-WEB"
-          p="Technical Training Website"
+          src={Jeevan}
+          link="https://github.com/rcrrags/Jeevan-Dairy"
+          h3="JEEVAN DAIRY"
+          p="Freelancing"
         />
         
       </div>
