@@ -35,7 +35,7 @@ function Hero() {
       <div className={styles.info}>
         <h1>HI, I'm </h1>
         <h1><a className={styles.head}>Ridhima</a> Jain</h1>
-        <h2>Frontend Developer</h2>
+        <h2>Full Stack Developer</h2>
         <span>
           <a href="https://github.com/Ridhima10" target="_blank">
             <img src={githubIcon} alt="Github icon" />
