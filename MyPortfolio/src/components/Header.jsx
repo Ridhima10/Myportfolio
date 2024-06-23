@@ -1,17 +1,19 @@
-// src/components/PortfolioSection.jsx
 import React from "react";
 import profileImage from "../assets/profile-pic.svg"; // Adjust the path to your image
 
-function Header() {
+function PortfolioSection() {
   return (
-    <section>
-      <div className="flex items-center justify-between mt-8">
-        <div className="text-center md:text-left md:w-1/2">
+    <section className="container mx-auto px-4">
+      <div className="flex flex-col md:flex-row items-center justify-between mt-8">
+        {/* Content on left (or top on small screens) */}
+        <div className="text-center md:text-center mb-4  md:mb-0 md:mt-10 md:w-1/2">
           <p className="text-2xl md:text-4xl font-bold">Hi,</p>
           <p className="text-2xl md:text-4xl font-bold">I'm Ridhima Jain</p>
           <p className="text-xl md:text-2xl mt-4">Full-stack Developer</p>
         </div>
-        <div className="mt-8 md:mt-0 md:w-1/2 flex justify-center md:justify-end">
+
+        {/* Image on right (or below on small screens) */}
+        <div className="flex justify-center md:justify-center  md:mt-10 md:w-1/2">
           <img
             src={profileImage}
             alt="Ridhima Jain"
@@ -23,4 +25,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default PortfolioSection;

@@ -9,6 +9,7 @@ import Contact from '../src/Pages/Contact';
 
 function App() {
   return (
+    <div>
     <Router>
       <Navbar />
       <Routes>
@@ -19,6 +20,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
+    <h1>hello</h1>
+    </div>
   );
 }
 
